@@ -1,0 +1,10 @@
+[package]
+name = "vulkano-sdl3-triangle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+vulkano = "0.35"
+vulkano-shaders = "0.35"
+sdl3 = { version = "0.22", features = ["raw-window-handle"] }
